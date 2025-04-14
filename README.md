@@ -1,60 +1,94 @@
-# Next.js Project Template
+# Next.js Boilerplate: Your Journey Starts Here 🚀
 
-This repository contains a blank Next.js project template with a variety of pre-configured tools and components to jumpstart your web development process.
+Welcome, traveler, to a well-trodden path for starting your next web adventure. This isn't just a blank slate; it's a carefully prepared basecamp 🏕️, equipped with modern tools and sensible defaults, designed to let you focus on building _your_ unique application, not wrestling with setup.
 
-## Features
+Think of this boilerplate as a solid foundation built with:
 
-- [Next.js](https://nextjs.org/) - React framework for building web applications
-- [TypeScript](https://www.typescriptlang.org/) - Typed superset of JavaScript
-- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-- [shadcn/ui](https://ui.shadcn.com/) - Re-usable components built with Radix UI and Tailwind CSS
-- [ESLint](https://eslint.org/) - Linting utility for JavaScript and TypeScript
-- [Million.js](https://million.js.org/) - Million Lint surfaces problematic code and automatically suggests ways to improve it.
-- [Bun](https://bun.sh/) - All-in-one JavaScript runtime & toolkit
-- Docker configuration for containerization
+- **Discipline:** 🧐 Pre-configured linting, formatting, and type-checking.
+- **Efficiency:** ⚡ Modern tooling like Next.js, Bun, and Tailwind CSS.
+- **Structure:** 🏗️ Sensible project layout and community-standard components.
+- **Guidance:** 🧭 A comprehensive set of documentation to keep everyone on the same page.
 
-## Getting Started
+> A boring codebase doesn't make a bored developer, on the contrary, it frees developers up to think about important stuff...
 
-1. Clone this repository:
-   ```
-   git clone https://github.com/yourusername/your-repo-name.git
-   ```
+## The Toolkit: What's in the Bag? 🎒
 
-2. Navigate to the project directory:
-   ```
-   cd your-repo-name
-   ```
+We've packed the essentials so you don't have to:
 
-3. Install dependencies:
-   ```
-   bun install
-   ```
+- [Next.js](https://nextjs.org/): The battle-tested React framework ⚛️.
+- [TypeScript](https://www.typescriptlang.org/): For catching errors before they happen 🔒.
+- [Tailwind CSS](https://tailwindcss.com/): Utility-first styling that stays out of your way 🎨.
+- [shadcn/ui](https://ui.shadcn.com/): Beautiful, accessible components you can own ✨.
+- [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/): The tireless guardians of code style and quality 🧹.
+- [Million.js](https://million.js.org/): Linting hints for performance gains 🏎️.
+- [Bun](https://bun.sh/): The speedy all-in-one toolkit 🐇.
+- [Docker](https://www.docker.com/): Containerization for consistent environments 🐳.
+- **The Handbook (`.docs` folder):** Our collected wisdom on how we build things 📚.
 
-4. Run the development server:
-   ```
-   bun run dev
-   ```
+## The Handbook: Essential Reading for the Trail 🗺️
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+Before you venture forth, familiarize yourself with the local customs and survival guides. These documents ensure we all navigate the codebase effectively and consistently.
 
-## Docker
+- **[Contributing Guidelines](./.docs/CONTRIBUTING.md):** The rules of the road (commits, branches, PRs) 🤝.
+- **[Ticket System](./.docs/TICKET_SYSTEM.md):** Deciphering the maps (tasks and requirements) 🎫.
+- **[Priority System](./.docs/PRIORITY_SYSTEM.md):** Standardized priority management for tickets and tasks 🎯.
+- **[Coding Standards](./.docs/CODING_STANDARDS.md):** Speaking the common tongue (naming, style, TS, JSDoc) 🗣️.
+- **[Architecture Guidelines](./.docs/ARCHITECTURE.md):** Ways to structure your components (Atomic Design inspiration) 🧱.
+- **[State Management](./.docs/STATE_MANAGEMENT.md):** Tackling the app state managment ⚙️.
+- **[Testing Strategies](./.docs/TESTING.md):** Building confidence with automated checks ✅.
+- **[Debugging Techniques](./.docs/DEBUGGING.md):** Finding your way when lost in the code 🔦.
+- **[Performance Guidelines](./.docs/PERFORMANCE.md):** Keeping things running smoothly and swiftly 💨.
+- **[Security Guidelines](./.docs/SECURITY.md):** Warding off the digital goblins (OWASP & best practices) 🛡️.
+- **[AI Assistance](./.docs/AI_ASSISTANCE.md):** Leveraging your trusty AI companion 🤖.
 
-To build and run the Docker container:
+## Setting Up Camp: Getting Started ⛺
 
-1. Build the image:
-   ```
-   docker build -t nextjs-template .
-   ```
+Ready to pitch your tent?
 
-2. Run the container:
-   ```
-   docker run -p 3000:3000 nextjs-template
-   ```
+1.  **Claim the Land:** Clone this repository. 🗺️
+    ```bash
+    git clone https://github.com/TomasDmArg/next-js-template
+    cd next-js-template
+    ```
+2.  **Gather Supplies:** Install dependencies. 🎒
+    ```bash
+    bun i
+    ```
+3.  **Light the Fire:** Start the development server. 🔥
+    ```bash
+    bun run dev
+    ```
+4.  **Scout the Area:** Open [http://localhost:3000](http://localhost:3000) in your browser. 👀
 
-## Contributing
+## Containerized Expeditions: Docker 🐳
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+For those who prefer their environments neatly packed:
 
-## License
+1.  **Build the Vessel:** 🛠️
+    ```bash
+    docker build -t nextjs-template .
+    ```
+2.  **Set Sail:** ⛵
+    ```bash
+    docker run -p 3000:3000 nextjs-template
+    ```
 
-[MIT](https://choosealicense.com/licenses/mit/)
+## Joining the Caravan: Contributing 🧑‍🤝‍🧑
+
+New ideas and improvements are always welcome. Before you chart a new course, please consult the **[Contributing Guidelines](./.docs/CONTRIBUTING.md)**.
+
+## Versión en Español 🇪🇸
+
+¿Preferís leer la documentación en español? Tenemos una versión completa en español disponible en la carpeta [`.docs/es`](./.docs/es).
+
+- **[Guía de Contribución](./.docs/es/CONTRIBUTING.md):** Las reglas del camino (commits, branches, PRs) 🤝.
+- **[Sistema de Tickets](./.docs/es/TICKET_SYSTEM.md):** Descifrando los mapas (tareas y requisitos) 🎫.
+- **[Sistema de Prioridades](./.docs/es/PRIORITY_SYSTEM.md):** Gestión estandarizada de prioridades para tickets y tareas 🎯.
+- **[Estándares de Código](./.docs/es/CODING_STANDARDS.md):** Hablando el idioma común (nombrado, estilo, TS, JSDoc) 🗣️.
+- **[Guías de Arquitectura](./.docs/es/ARCHITECTURE.md):** Formas de estructurar tus componentes (inspiración en Atomic Design) 🧱.
+- **[Gestión de Estado](./.docs/es/STATE_MANAGEMENT.md):** Dominando la gestión del estado ⚙️.
+- **[Estrategias de Testing](./.docs/es/TESTING.md):** Construyendo confianza con verificaciones automatizadas ✅.
+- **[Técnicas de Depuración](./.docs/es/DEBUGGING.md):** Encontrando el camino cuando te pierdes en el código 🔦.
+- **[Guías de Rendimiento](./.docs/es/PERFORMANCE.md):** Manteniendo las cosas funcionando suave y rápidamente 💨.
+- **[Guías de Seguridad](./.docs/es/SECURITY.md):** Protegiéndote de los duendes digitales (OWASP y mejores prácticas) 🛡️.
+- **[Asistencia de IA](./.docs/es/AI_ASSISTANCE.md):** Aprovechando tu fiel compañero de IA 🤖.
