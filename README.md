@@ -19,6 +19,8 @@ We've packed the essentials so you don't have to:
 - [TypeScript](https://www.typescriptlang.org/): For catching errors before they happen 🔒.
 - [Tailwind CSS](https://tailwindcss.com/): Utility-first styling that stays out of your way 🎨.
 - [shadcn/ui](https://ui.shadcn.com/): Beautiful, accessible components you can own ✨.
+- [HugeIcons](https://hugeicons.com/): Beautiful, customizable icons for your UI 🎭.
+- [Framer Motion](https://www.framer.com/motion/): Powerful animation library for React 🌊.
 - [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/): The tireless guardians of code style and quality 🧹.
 - [Million.js](https://million.js.org/): Linting hints for performance gains 🏎️.
 - [Bun](https://bun.sh/): The speedy all-in-one toolkit 🐇.
