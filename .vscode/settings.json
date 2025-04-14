@@ -11,5 +11,10 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "files.associations": {
         "*.css": "tailwindcss"
-    }
+    },
+    "prettier.endOfLine": "lf",
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5",
+    "prettier.printWidth": 100,
+    "files.eol": "\n"
 }
