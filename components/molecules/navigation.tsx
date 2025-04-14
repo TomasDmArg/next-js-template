@@ -50,10 +50,11 @@ export function Navigation() {
                                     <motion.li key={item.path}>
                                         <Link
                                             href={item.path}
-                                            className={`relative px-3 py-2 ${pathname === item.path
+                                            className={`relative px-3 py-2 ${
+                                                pathname === item.path
                                                     ? 'text-blue-600'
                                                     : 'text-gray-600 hover:text-blue-600'
-                                                }`}
+                                            }`}
                                         >
                                             {item.name}
                                             {pathname === item.path && (
@@ -103,10 +104,11 @@ export function Navigation() {
                         <Link
                             key={item.path}
                             href={item.path}
-                            className={`text-lg ${pathname === item.path
+                            className={`text-lg ${
+                                pathname === item.path
                                     ? 'text-blue-600'
                                     : 'text-gray-600 hover:text-blue-600'
-                                }`}
+                            }`}
                             onClick={() => setIsDrawerOpen(false)}
                         >
                             {item.name}

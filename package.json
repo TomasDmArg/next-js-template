@@ -8,7 +8,9 @@
         "start": "next start",
         "lint": "eslint \"./**/*.{js,jsx,ts,tsx}\"",
         "lint:fix": "eslint --fix \"./**/*.{js,jsx,ts,tsx}\"",
-        "prettier": "prettier --write \"./**/*.{js,jsx,ts,tsx}\" --ignore-path .gitignore"
+        "prettier": "prettier --write \"./**/*.{js,jsx,ts,tsx}\" --ignore-path .gitignore",
+        "format": "prettier --write \"./**/*.{js,jsx,ts,tsx}\" --ignore-path .gitignore",
+        "pre-push": "bun run format && bun run lint:fix && bun run build"
     },
     "dependencies": {
         "@hookform/resolvers": "^3.9.0",
