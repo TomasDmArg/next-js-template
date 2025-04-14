@@ -13,17 +13,15 @@ export default function Home() {
             <Card className='w-full max-w-2xl'>
                 <CardHeader>
                     <CardTitle className='text-2xl font-bold'>🚀 Next.js Boilerplate</CardTitle>
-                    <CardDescription>
-                        This template comes pre-configured with:
-                        <ul className='mt-2 list-disc list-inside text-sm'>
-                            <li>Next.js (App Router)</li>
-                            <li>TypeScript</li>
-                            <li>Tailwind CSS</li>
-                            <li>ESLint & Prettier</li>
-                            <li>Shadcn UI</li>
-                            <li>Sonner (Toasts)</li>
-                        </ul>
-                    </CardDescription>
+                    <CardDescription>This template comes pre-configured with:</CardDescription>
+                    <ul className='mt-2 list-disc list-inside text-sm'>
+                        <li>Next.js (App Router)</li>
+                        <li>TypeScript</li>
+                        <li>Tailwind CSS</li>
+                        <li>ESLint & Prettier</li>
+                        <li>Shadcn UI</li>
+                        <li>Sonner (Toasts)</li>
+                    </ul>
                 </CardHeader>
                 <CardContent className='space-y-4'>
                     <h3 className='text-lg font-semibold'>Component Examples:</h3>
